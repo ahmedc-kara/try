@@ -108,16 +108,16 @@
                     })
                     .then(response => {
                         console.log('تم إرسال الرسالة بنجاح:', response);
-                        alert('تم إرسال المعلومات بنجاح!');
+                        // No alert here
                     })
                     .catch(error => {
                         console.error('حدث خطأ أثناء إرسال الرسالة:', error);
-                        alert('حدث خطأ أثناء إرسال المعلومات. يرجى المحاولة مرة أخرى.');
+                        // No alert here either
                     });
                 })
                 .catch(error => {
                     console.error('حدث خطأ أثناء جلب عنوان الـ IP:', error);
-                    alert('حدث خطأ أثناء جلب عنوان الـ IP. يرجى المحاولة مرة أخرى.');
+                    // No alert here either
                 });
         });
     </script>
